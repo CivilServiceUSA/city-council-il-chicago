@@ -5,7 +5,7 @@ __Civil Services__ is a collection of tools that make it possible for citizens t
 City Council Data for Chicago, IL
 ===
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/LICENSE)  [![GitHub contributors](https://img.shields.io/github/contributors/CivilServiceUSA/us-states.svg)](https://github.com/CivilServiceUSA/us-states/graphs/contributors)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/CivilServiceUSA/city-council-il-chicago/master/LICENSE)  [![GitHub contributors](https://img.shields.io/github/contributors/CivilServiceUSA/city-council-il-chicago.svg)](https://github.com/CivilServiceUSA/city-council-il-chicago/graphs/contributors)
 
 ![Chicago, IL](city-council/images/backgrounds/640x360/city.jpg "Chicago, IL")
 
@@ -22,7 +22,7 @@ Completed Tasks
 We have completed the following Data Collection for Chicago, IL. [Watch Project](https://github.com/CivilServiceUSA/city-council-il-chicago/subscription) to be notified of updates.
 
 - [ ] City Council Data Created
-- [ ] City Photo Created
+- [X] City Photo Created
 - [ ] Councilor Headshots Created
 - [ ] Images Uploaded to CDN
 - [ ] GeoJSON File Created
