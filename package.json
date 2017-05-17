@@ -23,8 +23,11 @@
     "map"
   ],
   "cityData": {
+    "repo_name": "city-council-il-chicago",
     "state_code": "IL",
+    "state_code_slug": "il",
     "city_name": "Chicago",
+    "city_name_slug": "chicago",
     "city_population": "2720546",
     "city_government_url": "https://www.cityofchicago.org",
     "city_council_url": "http://chicityclerk.com/",

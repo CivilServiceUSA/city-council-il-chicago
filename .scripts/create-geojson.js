@@ -15,7 +15,7 @@ var collection = {
     "email": "hello@civil.services",
     "twitter": "https://twitter.com/CivilServiceUSA",
     "homepage": "https://civil.services",
-    "repository": "https://github.com/CivilServiceUSA/city-council-il-chicago"
+    "repository": "https://github.com/CivilServiceUSA/" + pjson.cityData.repo_name
   },
   "features": []
 };
@@ -45,7 +45,7 @@ function createDistrictMap(data) {
       "email": "hello@civil.services",
       "twitter": "https://twitter.com/CivilServiceUSA",
       "homepage": "https://civil.services",
-      "repository": "https://github.com/CivilServiceUSA/city-council-il-chicago"
+      "repository": "https://github.com/CivilServiceUSA/" + pjson.cityData.repo_name
     },
     "properties": data.properties,
     "geometry": data.geometry

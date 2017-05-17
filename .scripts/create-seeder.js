@@ -1,5 +1,8 @@
 var fs = require('fs');
 var path = require('path');
+var slug = require('slug');
+
+var pjson = JSON.parse(fs.readFileSync('package.json', 'utf8'));
 
 var date2str = function (x, y) {
   var z = {
@@ -19,7 +22,7 @@ var date2str = function (x, y) {
 }
 
 var collection, data;
-var seeder_file = path.join(__dirname, '../city-council/data/' + date2str(new Date(), 'yyyyMMddhhmmss') + '-city-council-seeder.js');
+var seeder_file = path.join(__dirname, '../city-council/data/' + date2str(new Date(), 'yyyyMMddhhmmss') + '-city-council-' + slug(pjson.cityData.state_code, { lower: true, replacement: '-' }) + '-' + slug(pjson.cityData.city_name, { lower: true, replacement: '-' }) + '-seeder.js');
 var data_file = path.join(__dirname, '../city-council/data/city-council-data.json');
 
 function createSeeder() {
