@@ -252,7 +252,7 @@ function init() {
 
       //jsonld.image = 'https://civilserviceusa.github.io/city-council/images/headshots/512x512/' + val.name_slug + '.jpg';
       jsonld.image = 'https://civilserviceusa.github.io/city-council/images/headshots/512x512/no-photo.jpg';
-      jsonld.jobTitle = toTitleCase(val.title) + ' of New York City Council';
+      jsonld.jobTitle = toTitleCase(val.title) + ' of Chicago City Council';
       jsonld.name = val.name;
       jsonld.url = val.city_council_url;
 
